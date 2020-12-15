@@ -40,11 +40,13 @@ INSTALLED_APPS = [
     'streams',
     'site_settings',
     'subscribers',
+    'blog',
 
     'wagtail.contrib.forms',
     'wagtail.contrib.modeladmin',
     'wagtail.contrib.redirects',
     'wagtail.contrib.settings',
+    'wagtail.contrib.routable_page',
     'wagtail.embeds',
     'wagtail.sites',
     'wagtail.users',
@@ -183,7 +185,3 @@ BASE_URL = 'http://example.com'
 
 INTERNAL_IPS = ('127.0.0.1', '127.17.0.1', '10.0.2.2',)
 DEBUG_TOOLBAR_CONFIG = {'INTERCEPT_REDIRECTS': False,}
-
-# DEBUG_TOOLBAR_CONFIG = {
-#     "SHOW_TOOLBAR_CALLBACK" : lambda request: True,
-# }
