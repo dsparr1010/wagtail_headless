@@ -11,7 +11,7 @@ from wagtail.images.edit_handlers import ImageChooserPanel
 
 from streams import blocks
 
-
+#THIS IS A CHANGE
 class BlogListingPage(RoutablePageMixin, Page):
     """Listing page lists all the blog detail pages"""
 
